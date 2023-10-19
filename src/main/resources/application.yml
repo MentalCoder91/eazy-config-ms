@@ -24,6 +24,8 @@ spring:
     port: 5672
     username: "guest"
     password: "guest"
+    ssl:
+      enabled: true
 encrypt:
   key: "bc042739edbe3a42028cfa408bd6b77d3343ad89494b9621e96b768d3828fba1"  # check postman for encrypt and decrypt. The config server usees this cipher key to encryt it exposes 2 endpoints at 8071 check postman
       
